@@ -2,14 +2,22 @@ Python scripts for scraping the myUMBC discussion forum. Functional, but current
 and a general update since 2013. 
 
 Requires:
+
+Python 2.7
+
 BeautifulSoup 4
+
 Dryscrape
+
 MySQLdb
+
 PyTagCloud
+
 
 Also requires you to add your own config file, config.txt, with
 credentials to myUMBC and a MySQL database, in the form of
 
+```
 [myumbc]
 username = 
 password = 
@@ -19,3 +27,4 @@ host =
 username = 
 password = 
 database = 
+```
